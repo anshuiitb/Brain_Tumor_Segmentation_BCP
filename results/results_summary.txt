@@ -1,0 +1,38 @@
+============================================================
+Brain Tumor Segmentation - PyTorch Results Summary
+============================================================
+
+Configuration:
+------------------------------------------------------------
+Model: U-Net
+Framework: PyTorch 2.7.1+cu118
+Device: cuda
+Image Size: 128x128
+Batch Size: 16
+Learning Rate: 0.0001
+Epochs Trained: 50
+
+Training History:
+------------------------------------------------------------
+Best Train Dice: 0.6989
+Best Val Dice: 0.7190
+Best Train IoU: 0.5380
+Best Val IoU: 0.5622
+Final Train Loss: 0.3342
+Final Val Loss: 0.3164
+
+Test Set Results:
+------------------------------------------------------------
+Dice Coefficient:
+  Mean: 0.6558
+  Std:  0.1396
+  Min:  0.3652
+  Max:  0.8670
+
+IoU Score:
+  Mean: 0.5036
+  Std:  0.1526
+  Min:  0.2234
+  Max:  0.7652
+
+============================================================
